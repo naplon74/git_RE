@@ -1,3 +1,4 @@
+
 # Git Repo Extension - Git_RE
 
 Simple multi-repository git status tool for Linux.
@@ -53,3 +54,11 @@ chmod +x src/git_re.sh
     │   ├── git_re.sh
     │   └── output.py
     └── README.md
+
+## Exemple output
+
+<img width="1150" height="500" alt="Screenshot From 2026-09-24 16-41-13" src="https://github.com/user-attachments/assets/faab7c72-fcb5-433e-9d94-acf217c7055a" />
+
+>[!NOTE]
+>This is a demo image.
+>`Dirty` means they are modified, added, or deleted files that haven't been committed yet.
