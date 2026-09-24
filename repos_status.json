@@ -1,0 +1,114 @@
+[
+  {
+    "path": "/home/naplon/.config/mango",
+    "name": "mango",
+    "branch": "main",
+    "dirty": true,
+    "status": "## main...origin/main"
+  },
+  {
+    "path": "/home/naplon/Documents/Codes/Super_bot",
+    "name": "Super_bot",
+    "branch": "main",
+    "dirty": false,
+    "status": "## main...origin/main"
+  },
+  {
+    "path": "/home/naplon/Documents/Codes/naplon-projects-website",
+    "name": "naplon-projects-website",
+    "branch": "main",
+    "dirty": true,
+    "status": "## main...origin/main"
+  },
+  {
+    "path": "/home/naplon/Documents/Codes/Md_Web",
+    "name": "Md_Web",
+    "branch": "main",
+    "dirty": false,
+    "status": "## main...origin/main"
+  },
+  {
+    "path": "/home/naplon/Documents/Codes/atlas-dashboard/atlas-dashboard",
+    "name": "atlas-dashboard",
+    "branch": "master",
+    "dirty": true,
+    "status": "## master"
+  },
+  {
+    "path": "/home/naplon/.local/share/Trash/files/NexNotch",
+    "name": "NexNotch",
+    "branch": "main",
+    "dirty": false,
+    "status": "## main...origin/main"
+  },
+  {
+    "path": "/home/naplon/.local/share/Steam/steamapps/workshop/content/1118200/3552683380",
+    "name": "3552683380",
+    "branch": "master",
+    "dirty": true,
+    "status": "## master"
+  },
+  {
+    "path": "/home/naplon/.local/share/Steam/steamapps/workshop/content/1118200/3259733291",
+    "name": "3259733291",
+    "branch": "main",
+    "dirty": true,
+    "status": "## main...origin/main"
+  },
+  {
+    "path": "/home/naplon/.local/share/Steam/steamapps/workshop/content/1118200/3028698424",
+    "name": "3028698424",
+    "branch": "main",
+    "dirty": true,
+    "status": "## main...origin/main"
+  },
+  {
+    "path": "/home/naplon/.local/share/icons/Conflux",
+    "name": "Conflux",
+    "branch": "main",
+    "dirty": false,
+    "status": "## main...origin/main"
+  },
+  {
+    "path": "/home/naplon/.oh-my-zsh",
+    "name": ".oh-my-zsh",
+    "branch": "master",
+    "dirty": false,
+    "status": "## master...origin/master"
+  },
+  {
+    "path": "/home/naplon/.oh-my-zsh/custom/plugins/zsh-autosuggestions",
+    "name": "zsh-autosuggestions",
+    "branch": "master",
+    "dirty": false,
+    "status": "## master...origin/master"
+  },
+  {
+    "path": "/home/naplon/.oh-my-zsh/custom/themes/powerlevel10k",
+    "name": "powerlevel10k",
+    "branch": "master",
+    "dirty": false,
+    "status": "## master...origin/master"
+  },
+  {
+    "path": "/home/naplon/lavat",
+    "name": "lavat",
+    "branch": "main",
+    "dirty": false,
+    "status": "## main...origin/main"
+  },
+  {
+    "path": "/home/naplon/clocky",
+    "name": "clocky",
+    "branch": "main",
+    "dirty": false,
+    "status": "## main...origin/main"
+  },
+  {
+    "path": "/home/naplon/ALSS",
+    "name": "ALSS",
+    "branch": "main",
+    "dirty": false,
+    "status": "## main...origin/main"
+  }
+]
