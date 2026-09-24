@@ -6,7 +6,7 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 # Define paths relative to the script location
 CONFIG_FILE="$SCRIPT_DIR/../config.json"
 OUTPUT_FILE="$SCRIPT_DIR/../repos_status.json"
-PYTHON_SCRIPT="$SCRIPT_DIR/output.py"          # ← fixed
+PYTHON_SCRIPT="$SCRIPT_DIR/output.py"
 
 # Default git directory (pulls from config.json using jq)
 GIT=$(jq -r '.path_to_git' "$CONFIG_FILE")
@@ -17,7 +17,7 @@ if [[ -e "$GIT" ]]; then
 else
     echo "Error: Path specified in config.json does not exist."
     echo "Please edit config.json and set a valid path."
-    echo "You may use commands such as 'where git' or 'whereis git' to find it's location."
+    echo "You may use commands such as 'where git' or 'whereis git' to find its location."
     exit 1
 fi
 
@@ -36,8 +36,15 @@ find ~ -type d -name ".git" 2>/dev/null | while read -r gitdir; do
 
     short_status=$(git -C "$repo" status -sb 2>/dev/null | head -n 1)
 
-    printf '{"path":"%s","name":"%s","branch":"%s","dirty":%s,"status":"%s"}\n' \
-        "$repo" "$(basename "$repo")" "$branch" "$dirty" "$short_status" >> "$tmpfile"
+    # Safely create JSON object using jq (fixes the control character error)
+    jq -n \
+        --arg path "$repo" \
+        --arg name "$(basename "$repo")" \
+        --arg branch "$branch" \
+        --argjson dirty "$dirty" \
+        --arg status "$short_status" \
+        '{path: $path, name: $name, branch: $branch, dirty: $dirty, status: $status}' \
+        >> "$tmpfile"
 done
 
 # Turn the lines into a proper JSON array

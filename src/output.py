@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 import json
 from rich.console import Console
 from rich.table import Table
