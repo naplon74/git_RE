@@ -18,18 +18,16 @@ It scans your system for git repositories, collects their status, and displays a
 - `jq`
 - `python3`
 
-Needed for python :
-
-    [rich](https://pypi.org/project/rich/)
+Needed for python : [rich](https://pypi.org/project/rich/)
 
 ## Setup
 
 1. Edit `config.json` and set your preferred path (default is /usr/bin/git):
 
 ```json
-    {
-      "path_to_git": "/home/yourusername/Projects"
-    }
+{
+    "path_to_git": "/home/yourusername/Projects"
+}
 ``` 
 
 >[!TIP]
@@ -38,14 +36,12 @@ Needed for python :
 2. Make the script executable:
 
 ```bash
-
-    chmod +x src/git_re.sh
+chmod +x src/git_re.sh
 ```
 
 ## Usage
 ```bash
-
-    ./src/git_re.sh
+./src/git_re.sh
 ```
 
 ## Project Structure
