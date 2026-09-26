@@ -61,3 +61,15 @@ chmod +x src/git_re.sh
 >[!NOTE]
 >This is a demo image.
 >`Dirty` means they are modified, added, or deleted files that haven't been committed yet.
+
+## v1.1
+What's new?
+
+- Added ahead / behind in the python output table.
+- Added logs.
+- Added / modified relevents text.
+
+And that's about it!
+
+## v1.0
+Inital release.
