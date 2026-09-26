@@ -1,4 +1,3 @@
-
 # Git Repo Extension - Git_RE
 
 Simple multi-repository git status tool for Linux.
